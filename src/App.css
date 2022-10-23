@@ -13,8 +13,6 @@
 
   --color: #33427071, #4f68bb71, #4f68bb71, #4f68bb71, #4f68bb71, #2a366494,
     #27335f88, #24305aa6, #1c274880, #161f37b4, #101626, #070b16;
-
-  --yellow: to top(yellow, green;);
 }
 
 * {
@@ -24,7 +22,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background: linear-gradient(to right, var(--color));
+  background-color: black;
 }
 
 html {

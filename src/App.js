@@ -1,9 +1,24 @@
 import "./App.css";
 import "./zero.css";
+import phototypeImgOne from "./pic/1.png";
+import phototypeImgTwo from "./pic/2.png";
+import phototypeImgThree from "./pic/3.jpg";
+import phototypeImgfour from "./pic/4.jpg";
+
+function Design() {
+  return (
+    <div className="design">
+      <img src={phototypeImgOne} alt="pic"></img>
+      <img src={phototypeImgTwo} alt="pictwo"></img>
+      <img src={phototypeImgThree} alt="picthree"></img>
+      <img src={phototypeImgfour} alt="picfour"></img>
+    </div>
+  );
+}
 
 function First() {
   return (
-    <>
+    <div className="menu">
       <div className="menu-background">
         <div className="menu-logo">
           <p>logo</p>
@@ -18,7 +33,7 @@ function First() {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
@@ -26,13 +41,12 @@ function App() {
   return (
     <>
       <div className="App">
-        <header>
-          {/* Menu */}
-          <First />
-        </header>
+        {/* Menu */}
         <main className="Main">
-          <div>{/* Main grid */}</div>
+          <Design /> {/* Prototype one */}
+          {/* Main */}
         </main>
+
         <footer className="Feet">
           <div>{/* Something?? */}</div>
         </footer>
