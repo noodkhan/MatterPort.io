@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Lora:ital,wght@0,400;0,500;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Nunito+Sans:ital,wght@0,200;1,200;1,300;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Prompt:ital,wght@0,100;0,300;0,400;0,900;1,100;1,200;1,300;1,400&family=Raleway:ital,wght@0,100;0,300;0,400;1,100;1,300;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=Work+Sans:ital,wght@0,100;0,300;1,300&display=swap");
+
+:root {
+  --fontfam1: "Raleway";
+  --fontfam2: "PT Sans";
+  --fontfam3: "Merriweather";
+  --fontfam4: "Nunito Sans";
+  --fontfam5: "Concert One";
+  --fontfam6: "Prompt";
+  --fontfam7: "Work Sans";
+  --fontfam8: "Roboto";
+  --fontfam9: "Lora";
+
+  --color: #33427071, #4f68bb71, #4f68bb71, #4f68bb71, #4f68bb71, #2a366494,
+    #27335f88, #24305aa6, #1c274880, #161f37b4, #101626, #070b16;
+
+  --yellow: to top(yellow, green;);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0px;
+  padding: 0px;
+  background: linear-gradient(to right, var(--color));
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html {
+  font-size: 10px;
+  color: black;
+  font-family: var(--fontfam1);
 }
 
-.App-link {
-  color: #61dafb;
+li {
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
 }

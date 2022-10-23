@@ -1,19 +1,40 @@
 import "./App.css";
+import "./zero.css";
+
+function First() {
+  return (
+    <>
+      <div className="menu-background">
+        <div className="menu-logo">
+          <p>logo</p>
+        </div>
+        <div className="menu-selection">
+          <ul>
+            <li>
+              <a href="/">work</a>
+              <a href="/">product</a>
+              <a href="/">contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </>
+  );
+}
 
 function App() {
   return (
     <>
       <div className="App">
-        <header className="App-header">
-          <h2>hello world</h2>
-          <a>คนที่ไม่มีความผิด คือคนที่มันไม่ทำอะไร</a>
-          <h3>คอยดู</h3>
+        <header>
+          {/* Menu */}
+          <First />
         </header>
         <main className="Main">
-          <div></div>
+          <div>{/* Main grid */}</div>
         </main>
         <footer className="Feet">
-          <div></div>
+          <div>{/* Something?? */}</div>
         </footer>
       </div>
     </>
