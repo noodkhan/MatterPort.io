@@ -1,70 +1,12 @@
-# Getting Started with Create React App
+Matterport is a technology company that specializes in creating 3D digital twins of physical spaces. Essentially, they provide hardware and software solutions that allow users to capture, create, and explore immersive 3D models of real-world environments. These models can be used for various purposes such as real estate marketing, interior design, construction documentation, virtual tours, insurance documentation, and more.
+![Screenshot 2024-03-12 041013](https://github.com/noodkhan/MatterPort.io/assets/92358053/387bcd17-293e-496f-ae88-65545dd3a8f1)
+The Matterport system typically involves a camera (such as the Matterport Pro2 or Pro2 Lite) that captures 360-degree panoramic images of a space and then uses software to stitch these images together into a cohesive 3D model. Users can navigate through these models online or in virtual reality, providing a realistic and interactive experience of the physical space without actually being there.
+![Screenshot 2024-03-12 041738](https://github.com/noodkhan/MatterPort.io/assets/92358053/32131306-9709-4f5f-ae7c-30316b4c3367)
+Matterport's technology has found applications in a variety of industries including real estate, hospitality, architecture, construction, retail, and property management, among others. It's widely regarded as a powerful tool for showcasing properties, providing virtual tours, and facilitating remote collaboration and decision-making.
+![Screenshot 2024-03-12 041623](https://github.com/noodkhan/MatterPort.io/assets/92358053/0af279d9-66ba-43bf-800a-eaaa210ac238)
+As a Matterport developer who has just completed a project, you've meticulously crafted a digital masterpiece that seamlessly merges innovation with practicality. With intricate attention to detail, you've utilized Matterport's cutting-edge technology to transform physical spaces into captivating 3D digital twins.
+Your expertise in leveraging Matterport's hardware and software solutions has allowed you to capture every nuance of the environment, from the grand architectural features to the subtle interplay of light and shadow. Through your skilled integration of panoramic images, you've woven together a rich tapestry of immersive experiences that invite users to explore and engage with the space in unprecedented ways.
+![Screenshot 2024-03-12 041524](https://github.com/noodkhan/MatterPort.io/assets/92358053/9bc3c43b-504a-4a49-9f43-9deef6bc27d3)
+With your project now complete, you've unlocked new possibilities for real estate marketing, interior design visualization, construction documentation, and beyond. Your dedication to pushing the boundaries of spatial digitization has not only elevated the standard of your work but has also set a new benchmark for innovation within the Matterport community.
+As you reflect on your journey as a Matterport developer, you stand at the forefront of a dynamic landscape where technology converges with creativity to redefine how we perceive and interact with the world around us. Your commitment to excellence and passion for pushing the limits of possibility serve as a testament to the transformative power of immersive 3D experiences crafted with Matterport.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
