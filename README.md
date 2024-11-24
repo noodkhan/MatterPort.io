@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matterport Integration with JavaScript</title>
 </head>
 <body>
     <h1>🚗 Matterport Integration with JavaScript</h1>
